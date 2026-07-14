@@ -2,7 +2,7 @@
 
 //If there is no common prefix, return an empty string "".
 
- 
+
 
 //Example 1:
 
@@ -15,12 +15,10 @@
 //Explanation: There is no common prefix among the input strings.
 
 
-namespace Array.Leetcode
+namespace ArrayLearning.Leetcode
 {
     public class Longest_Common_Prefix
     {
-        public class Solution
-        {
             //strs = {"Flow","Fly"}
             public string LongestCommonPrefix(string[] strs)
             {
@@ -45,4 +43,3 @@ namespace Array.Leetcode
             }
         }
     }
-}
